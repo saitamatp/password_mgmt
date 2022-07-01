@@ -1,0 +1,68 @@
+﻿<Window x:Name="Password_Viewer" x:Class="password_mgmt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:password_mgmt"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <StackPanel>
+        <StackPanel>
+            <Label
+                x:Name="Label" 
+                Content="Enter your Password"
+                FontWeight="Bold">
+            </Label>
+            <PasswordBox
+                x:Name="password"
+                Width="300px"
+                HorizontalAlignment="Left"
+                Margin="10px">
+            </PasswordBox>
+            <Button
+                x:Name="view"
+                Width="100px"
+                Content="View Passwords"
+                Margin="10px"
+                HorizontalAlignment="Left"
+                Click="view_Click">
+            </Button>
+            <Label
+                x:Name="showPwd">
+            </Label>
+            <Label
+                Content="Else Add a new Password, Enter Account Name and Password"
+                FontWeight="Bold"></Label>
+            <Label Content="Master Password">
+            </Label>
+            <PasswordBox
+                x:Name="master_Password"
+                Width="300px"
+                HorizontalAlignment="left"
+                Margin="10px"></PasswordBox>
+            <Label Content="Account Name">
+            </Label>
+            <TextBox
+                x:Name="account_Name"
+                Width="300px"
+                HorizontalAlignment="left"
+                Margin="10px"></TextBox>
+            <Label Content="Account Password">
+            </Label>
+            <PasswordBox
+                x:Name="account_password"
+                Width="300px"
+                HorizontalAlignment="left"
+                Margin="10px"></PasswordBox>
+
+            <Button
+                x:Name="add"
+                Width="100px"
+                Content="Add Password"
+                Margin="10px"
+                HorizontalAlignment="Left"
+                Click="add_Click">
+            </Button>
+        </StackPanel>
+    </StackPanel>
+</Window>
