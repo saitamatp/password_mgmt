@@ -1,1 +1,1 @@
-﻿# GUI for Xchahcha [a link](https://github.com/saitamatp/xchacha) repo
+﻿# GUI for [Xchahcha](https://github.com/saitamatp/xchacha) repo
